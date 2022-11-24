@@ -56,7 +56,7 @@ npm run cdk-app-install
 
 This command will kick-start the setup and installation process. It will eventually prompt you to enter the required information as shown below
 
-![install-1](../images/setup-1.png)
+![install-1](./images/setup-1.png)
 
 The wizard will fill out default values for the Amazon S3 bucket, and Amazon Cognito domain name. You can keep these default values or enter the values manually. Subsequently, choose the region you wish to deploy this application into. Enter your email and password, you will use this to log-on to the UI application that will be deployed.
 
@@ -65,11 +65,11 @@ The wizard will fill out default values for the Amazon S3 bucket, and Amazon Cog
 
 Once you have entered all the values, hit return/enter and review the values, once done hit return/enter again.
 
-![install-2](../images/setup-2.png)
+![install-2](./images/setup-2.png)
 
 The setup process will now deploy all the necessary resources into the AWS account. The entire process may take about 10-15 mins to complete. 
 
-![install-3](../images/setup-3.png)
+![install-3](./images/setup-3.png)
 
 Once the deployment is complete, you should see the application URL printed in the terminal as shown below. The web-application can be accessed via this URL.
 
