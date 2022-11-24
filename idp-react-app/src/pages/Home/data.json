@@ -1,0 +1,13 @@
+{
+    "service_urls":{
+        "textract": "https://docs.aws.amazon.com/textract/latest/dg/what-is.html",
+        "comp_med": "https://docs.aws.amazon.com/comprehend-medical/latest/dev/comprehendmedical-welcome.html",
+        "s3": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "lambda": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
+        "sqs": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html",
+        "sns": "https://docs.aws.amazon.com/sns/latest/dg/welcome.html",
+        "sfn": "https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html",
+        "cognito": "https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html",
+        "ddb": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html"
+    }
+}

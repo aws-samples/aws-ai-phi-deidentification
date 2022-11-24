@@ -1,0 +1,22 @@
+{
+    "name": "idp-poc-in-a-box",
+    "scripts":{
+      "react-app-start": "npm run start -w idp-react-app",
+      "react-app-build": "npm run build -w idp-react-app",
+      "react-app-test": "npm run test -w idp-react-app",
+      "react-app-eject": "npm run eject -w idp-react-app",
+      "cdk-app-deploy": "npm run cdk-deploy -w idp-cdk-app",
+      "cdk-web-deploy": "npm run cdk-deploy-web -w idp-cdk-app",
+      "cdk-app-destroy": "npm run cdk-destroy -w idp-cdk-app",
+      "cdk-app-synth": "npm run cdk-synth -w idp-cdk-app",
+      "cdk-web-synth": "npm run cdk-synth-web -w idp-cdk-app",
+      "cdk-app-test": "npm run test -w idp-cdk-app",
+      "cdk-app-diff": "npm run cdk-diff -w idp-cdk-app",      
+      "cdk-app-deployall": "npm run build -w idp-react-app && npm run cdk-deploy -w idp-cdk-app && npm run cdk-deploy-web -w idp-cdk-app",
+      "cdk-app-install": "npm install --silent --save -w idp-cdk-app && npm install --silent --save -w idp-react-app && npm run build -w idp-react-app && clear && npm run cdk-app-setup -w idp-cdk-app && npm run cdk-deploy -w idp-cdk-app && npm run cdk-deploy-web -w idp-cdk-app"
+    },
+    "workspaces": [
+      "idp-react-app",
+      "idp-cdk-app"
+    ]
+  }

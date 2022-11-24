@@ -1,0 +1,1 @@
+window.authdata={"Auth":{"region":"us-east-1","userPoolId":"us-east-1_KSHuxQ0Nu","identityPoolId":"us-east-1:c58c6069-48e7-480d-b4b0-9cb73df41591","userPoolWebClientId":"15743amtpa93qm007epr6k1j87","idpRootBucket":"poc-idp-app-root-deid"},"FunctionUrls":{"idpGetWfFunctionUrl":"https://omn576s2gnqzuxfrn2gybmnbru0eojqa.lambda-url.us-east-1.on.aws/"}}
