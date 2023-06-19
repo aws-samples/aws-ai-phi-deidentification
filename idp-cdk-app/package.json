@@ -24,7 +24,7 @@
   "dependencies": {
     "@aws-cdk/aws-amplify-alpha": "^2.38.1-alpha.0",
     "@aws-cdk/core": "^1.170.0",
-    "aws-cdk-lib": "^2.39.0",
+    "aws-cdk-lib": "^2.80.0",
     "constructs": "^10.0.0",
     "dotenv": "^16.0.1",
     "uuid": "^8.3.2"
